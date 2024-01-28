@@ -1,0 +1,26 @@
+{
+  "name": "mentor-api",
+  "version": "1.0.0",
+  "description": "mentor-student",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "api-mentor&",
+    "student"
+  ],
+  "author": "Poova asokan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
